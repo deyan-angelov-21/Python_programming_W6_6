@@ -48,4 +48,5 @@ def main() -> None:
     print("Ciphered text saved!")
     print("Program ending.")
     return None
-main()
+if __name__ == "__main__":
+    main()
