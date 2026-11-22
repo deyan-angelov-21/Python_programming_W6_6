@@ -30,7 +30,7 @@ def rot13(Content: str) -> str:
     return NewContent
 
 def writeFile(Filename: str, Content: str) -> None:
-    with open(Filename, "w", encoding="utf-8") as file:
+    with open(Filename, "w", encoding="UTF-8") as file:
         file.write(Content)
 
 def main() -> None:
